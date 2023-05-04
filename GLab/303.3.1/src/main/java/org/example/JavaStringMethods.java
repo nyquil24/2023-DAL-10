@@ -7,12 +7,12 @@ public class JavaStringMethods {
 
      String str1 = "Java";
      String str2 = "";
-     String s1="HELLO HOW Are You?";
+     String s1="hello how are you?";
      String s2="hello";
-     String s1lower=s1.toLowerCase();
+     String s1upper=s1.toUpperCase();
 
 
-        System.out.println(s1lower);
+        System.out.println(s1upper);
 
 //        System.out.println(s1.isEmpty());
 //        System.out.println(s2.isEmpty());
