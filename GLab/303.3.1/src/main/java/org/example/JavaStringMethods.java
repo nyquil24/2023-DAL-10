@@ -1,12 +1,17 @@
 package org.example;
 
+import java.util.Arrays;
+
 public class JavaStringMethods {
     private static final double PI = 3.14159;
 
     public static void main(String[] args) {
 
-   String str1 = "Learn ";
-   String str2 = "Java";
+  String message = "Welcome to Java";
+        System.out.println("the first character in the message is " + message.charAt(0));
+
+
+
 
 //        System.out.println(str1.concat(str2));
 //
