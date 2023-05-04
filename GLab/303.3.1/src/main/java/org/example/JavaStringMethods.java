@@ -7,12 +7,17 @@ public class JavaStringMethods {
 
      String str1 = "Java";
      String str2 = "";
+     String s1="";
+     String s2="hello";
 
-        System.out.println(str1.length());
-        System.out.println(str2.length());
-        System.out.println("Java".length());
-        System.out.println("Java\n".length());
-        System.out.println("Learn Java".length());
+        System.out.println(s1.isEmpty());
+        System.out.println(s2.isEmpty());
+
+//        System.out.println(str1.length());
+//        System.out.println(str2.length());
+//        System.out.println("Java".length());
+//        System.out.println("Java\n".length());
+//        System.out.println("Learn Java".length());
     }
 
 }
