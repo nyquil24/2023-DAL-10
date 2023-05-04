@@ -5,14 +5,14 @@ public class JavaStringMethods {
 
     public static void main(String[] args) {
 
-     String str1 = "Java";
-     String str2 = "";
-     String s1="hello how are you?";
-     String s2="hello";
-     String s1upper=s1.toUpperCase();
+   String str1 = "Learn ";
+   String str2 = "Java";
 
+//        System.out.println(str1.concat(str2));
+//
+//        System.out.println(str2.concat(str1));
 
-        System.out.println(s1upper);
+//        System.out.println(s1upper);
 
 //        System.out.println(s1.isEmpty());
 //        System.out.println(s2.isEmpty());
