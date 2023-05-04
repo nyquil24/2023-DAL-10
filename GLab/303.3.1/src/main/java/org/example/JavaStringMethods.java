@@ -7,18 +7,25 @@ public class JavaStringMethods {
 
     public static void main(String[] args) {
 
-    String s1="hello";
-    String s2="hello";
-    String s3="hemlo";
-    String s4="flag";
-
-        System.out.println(s1.compareTo(s2));
-
-        System.out.println(s1.compareTo(s3));
-
-        System.out.println(s1.compareTo(s4));
 
 
+
+
+
+//        String str1 = "java is fun";
+//
+//        System.out.println(str1.substring(0,4));
+
+ //       String s1="hello";
+//    String s2="hello";
+//    String s3="hemlo";
+//    String s4="flag";
+//
+//        System.out.println(s1.compareTo(s2));
+//
+//        System.out.println(s1.compareTo(s3));
+//
+//        System.out.println(s1.compareTo(s4));
 
 
 //  String message = "Welcome to Java";
