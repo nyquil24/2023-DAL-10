@@ -1,0 +1,12 @@
+
+V	java:S125
+"<This block of commented-out lines of code should be removed.(ıÏÍƒÿÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(Šÿ­“
+Q	java:S125"<This block of commented-out lines of code should be removed.(¼ÿ…ù
+Q	java:S125#"<This block of commented-out lines of code should be removed.(ÖÌÈ‹
+P	java:S1259"<This block of commented-out lines of code should be removed.(‘õ¬l
+Z	java:S106J"9Replace this use of System.out or System.err by a logger.(‘ƒ÷îüÿÿÿÿ8ùœ¸Š1
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
+I
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ

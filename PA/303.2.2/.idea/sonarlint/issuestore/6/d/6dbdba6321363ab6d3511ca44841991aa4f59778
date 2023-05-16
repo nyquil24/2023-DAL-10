@@ -1,0 +1,6 @@
+
+[
+java:S2184"@Cast one of the operands of this integer division to a "double".(ÊýŒìüÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(˜ËÞÿüÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(éô‹Ñ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(±ÚÂ˜øÿÿÿÿ
