@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="untitled" />
+        <module name="303.3.1" />
+        <module name="303.7.1 copy 2" />
+        <module name="303.3.2" />
+        <module name="303.2.1" />
+        <module name="303.3.2 copy" />
+        <module name="303.9.1" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
