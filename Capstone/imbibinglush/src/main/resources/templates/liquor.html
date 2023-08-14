@@ -40,6 +40,36 @@
         </div>
     </div>
 </nav>
+<br>
+<br>
+
+<div align="center" class="container my-2">
+
+<h1>Liquor Invent</h1>
+
+    <a th:href = "@{/showNewLiquorForm}" class="btn btn-primary btn-sm mb-3"> Add Liquor </a>
+
+    <table border="1" class="table table-striped table-responsive-md">
+        <thead>
+        <tr>
+            <th>Liquor Name</th>
+            <th>Liquor Type</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="liquor : ${listLiquors}">
+            <td th:text="${liquor.liquorName}"></td>
+            <td th:text="${liquor.liquorType}"></td>
+            <td><a th:href="@{/showFormForLUpdate/{id}(id=${liquor.id})}" class="btn btn-primary">Update</a></td>
+            <td><a th:href="@{/deleteLiquor/{id}(id=${liquor.id})}" class="btn btn-primary">Delete</a></td>
+        </tr>
+
+        </tbody>
+    </table>
+</div>
+
+
+
 
 </body>
 </html>

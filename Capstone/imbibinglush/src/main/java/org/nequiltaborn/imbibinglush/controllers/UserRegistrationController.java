@@ -1,8 +1,7 @@
 package org.nequiltaborn.imbibinglush.controllers;
 
 
-import org.nequiltaborn.imbibinglush.models.User;
-import org.nequiltaborn.imbibinglush.services.UserRegistrationDto;
+import org.nequiltaborn.imbibinglush.services.dto.UserRegistrationDto;
 import org.nequiltaborn.imbibinglush.services.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

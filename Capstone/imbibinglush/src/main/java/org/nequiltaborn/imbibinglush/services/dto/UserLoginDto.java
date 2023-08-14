@@ -1,4 +1,4 @@
-package org.nequiltaborn.imbibinglush.services;
+package org.nequiltaborn.imbibinglush.services.dto;
 
 
 import lombok.AllArgsConstructor;

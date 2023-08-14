@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Imbibing Lush</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}"/>
+</head>
+<body>
+
+<div class="container-fluid text-center">
+   <div> <h2> Cordial Inventory</h2></div>
+    <div class="h3 m-2">
+        <a  th:href="@{/cordial/new}">Add New User</a>
+    </div>
+    <table class="table table-bordered">
+        <thead class="thead-dark">
+        <tr>
+            <th>Cordial Name</th>
+            <th>Cordial Flavor</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="cordial : ${listCordial}">
+
+                <td th:text="${cordial.cordialName}"></td>
+                <td th:text="${cordial.cordialFlavor}"></td>
+                <td>
+                    <a class="h4 mr-3" th:href="@{/update/__${cordial.id}__}">Update</a>
+                    <a class="h4" th:href="@{/delete/__${cordial.id}__}">Delete</a>
+                </td>
+        </tr>
+
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

@@ -1,24 +1,25 @@
-package org.nequiltaborn.imbibinglush.services;
+package org.nequiltaborn.imbibinglush.services.dto;
 
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
-import jakarta.persistence.UniqueConstraint;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.nequiltaborn.imbibinglush.models.Role;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @AllArgsConstructor
 @Data
 @NoArgsConstructor
 public class UserRegistrationDto {
+
     private int id;
     private String fName;
     private String lName;
     private String email;
     private String password;
-
+    private List<Role> roles;
 
 
 }

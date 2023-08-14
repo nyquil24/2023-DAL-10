@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Imbibing Lush</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+          crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Liquor Inventory</h1>
+        <hr>
+        <h2>Save Liquor</h2>
+
+
+        <form action="#" th:action="@{/saveLiquor}" th:object="${liquor}" method="POST">
+             <input type="text" th:field="*{liquorName}" placeholder="Liquor Name" class="form-control mb-4 col-4">
+            <input type="text" th:field="*{liquorType}" placeholder="Liquor Type" class="form-control mb-4 col-4">
+
+            <button type="submit" class="btn btn-info col-2">Save Liquor</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
