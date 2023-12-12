@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Per Scholas HTML CSS & JavaScript</title>
+    <link rel="stylesheet" href="index.css"/>
+    <script src="index.js"></script>
+    <style> 
+    #homefooter{
+        font-size: large;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    </style>
+
+</head>
+<body>
+    <nav> 
+        <h1 contenteditable data-text="header" align = center><strong>WEED</strong></h1>
+    </nav>
+    <div class="about"> 
+        <h2 > 
+            <hr>
+            <p>This is a website to view common types of weeds that you can find growing at home or in the wild.</p> 
+           <p> They are hated by society, but you can't go outside without seeing them.</p>
+            <p>You can see different species of weed by selecting "Home Grown" or "Wild" from the drop-down. 
+            </p>
+            <hr>
+        </h2>       
+</div>
+
+<a></a>
+
+<form id="redirectForm">
+    <label for="weedType">Choose:</label>
+    <select name="weedType" id="weedType">
+      <option value="dudd">select below</option>
+      <option value="home_grown">Home Grown</option>
+      <option value="wild">Wild</option>
+    
+    </select>
+    <br><br>
+    
+  </form>
+  <!-- action="form.html" -->
+  <form  name="myForm" method="POST" onsubmit="return validate()">
+    <input type="text" name="Name"  placeholder="Enter your name" pattern="^[a-zA-Z]+"
+           title="Please enter your name "
+           required/>
+    <input type="text" name="Email" placeholder="Enter email"
+           title="please enter your email@mail.com" required/>
+    <input type="date" id="date" value="2024-12-31" min="1910-01-01" max="2002-12-31"
+        placeholder="Date of Birth" required/> 
+    
+    <input type="submit" value="Submit"/>
+</form>
+
+ 
+    <hr> 
+    
+</p>
+</section>
+
+<section id="facts"> 
+<div>
+    <h2>Facts about Weed</h2>
+<ul>
+    <li>Weeds have three life cycles: annual, biennial, and perennial.</li>
+    <li>Weed is a plant</li>
+    <li>Weed is a plant considered undesirable and grows where it is not wanted</li>
+    <li>You shouldn't set them on fire</li>
+</ul>
+</div>
+</section>
+
+
+    <footer id="homefooter">
+    Thank You For Visiting
+    </footer>
+
+</body>
+</html>

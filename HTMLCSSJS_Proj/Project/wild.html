@@ -1,0 +1,95 @@
+
+<!-- 1st.html  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Per Scholas HTML CSS & JavaScript</title>
+    <link rel="stylesheet" href="index.css"/>
+    <script src="index.js"></script>
+    <style>
+        /* .container{
+            max-width:80%;
+            border-radius:px; 
+            margin:auto; 
+            background: #69ab3d;
+            display: flex;
+            justify-content: center;
+            
+        } */
+
+        .card{
+            box-shadow:2px 2px 10px  black;
+            width: 300px; 
+            background-color: lightgray;
+            border-radius: 5px;
+            margin:30px; 
+            justify-content: center;
+            float:left;
+            flex-flow:wrap;    
+        
+        }
+        .card img{
+            width:100%; 
+            height:auto; 
+            border-radius:5px;
+
+        }
+        .card:hover{
+            box-shadow:2px 2px 10px lightgreen;
+        }
+        .desc{
+            padding:15px; 
+            text-align:center; 
+        }
+
+    </style>
+</head>
+<body>
+<nav>
+<h1 align = center>Wild</h1>
+</nav>
+<table>
+ 
+    <tr>
+        <td><div class="container"> 
+            <div class="card">
+                <img src="photos/Dandelion.jpg">
+                <div class="desc">Dandelion</div>
+            </div></td>
+        <td><div class="container"> 
+            <div class="card">
+                <img src="photos/wild_broadleaf.jpeg">
+                <div class="desc">Broadleaf Plantain</div>
+            </div></td>
+        <td><div class="container"> 
+            <div class="card">
+                <img src="photos/wild_burdock.jpeg">
+                <div class="desc">Burdock</div>
+            </div></td>
+    </tr>
+    <tr>
+        <td><div class="container"> 
+            <div class="card">
+                <img src="photos/wild_cogongrass.jpeg">
+                <div class="desc">Cogongrass</div>
+            </div></td>
+        <td><div class="container"> 
+            <div class="card">
+                <img src="photos/wild_dandelion.jpeg">
+                <div class="desc">Dandelion</div>
+            </div></td>
+        <td><div class="container"> 
+            <div class="card">
+                <img src="photos/wild_Kudzujpeg.jpeg">
+                <div class="desc">Kudzu</div>
+            </div></td>
+    </tr>
+ </table>  
+
+
+</div>
+    <footer> 
+        <a href="https://en.wikipedia.org/wiki/Weed" target="_black">For more information click here.</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,79 @@
+
+
+
+
+/* dark green : #295D09
+medium green : #69AB3D
+light green: #AED36C
+white: #E9EBED */
+body{
+    background: #295D09; 
+    margin: 0; 
+    padding: 0; 
+}
+footer{
+    position: absolute; 
+    bottom:0; 
+    left: 0; 
+    width:100%; 
+    padding:20px; 
+    font-size:20px; 
+    font-weight:bold; 
+    text-align: center; 
+    background:#69AB3D; 
+    font-family:Arial; 
+    letter-spacing:1px; 
+}
+
+h1{
+    font-size:40px;
+    color: green; ;
+}
+
+nav{
+    background: #AED36C; 
+    width:100%; 
+    text-align: center; 
+    overflow: auto; 
+    font-family:'Times New Roman',serif;  
+}
+
+table {
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    position:center;
+    margin: 0 auto; 
+    text-align: center; 
+ }
+ 
+ th, td {
+    border: 1px solid lightgray;
+ }
+ 
+ .about{
+    padding: 5px; 
+    text-align: center; 
+    margin: 0 auto; 
+    padding:40px; 
+    font-weight: bold; 
+    color: yellowgreen; 
+ }
+
+li {
+    padding: 0px; 
+    text-align:center; 
+    margin: 0 auto; 
+    padding:10px; 
+    font-weight: bold;
+    color: yellowgreen;
+ }
+
+ h2{
+    text-align: center; 
+ }
+
+ form{
+    text-align: center; 
+    color: yellow; 
+ }
